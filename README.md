@@ -24,13 +24,13 @@ Spotify API → AWS Lambda (Extract) → Raw S3 Bucket
 
 
 ## Snowflake Tables Created
-tblAlbum
-tblArtist
-tblSongs
+-tblAlbum
+-tblArtist
+-tblSongs
 
 ## Security Measures
-✅ AWS secrets have been removed
-✅ .gitignore is configured to avoid pushing sensitive files
-✅ IAM roles configured with least privilege
-✅ Snowpipe uses external integration with limited permissions
+-AWS secrets have been removed
+-.gitignore is configured to avoid pushing sensitive files
+- IAM roles configured with least privilege
+- Snowpipe uses external integration with limited permissions
 
