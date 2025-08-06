@@ -2,6 +2,7 @@
 End-to-end ETL pipeline that extracts Spotify track data using their public API, transforms it using Python, and loads it into AWS S3 and Snowflake for analysis-fully automated and serverless.
 
  ## Project Objective
+ 
 1- Build a robust, scalable, and automated ETL pipeline to:
 2- Extract data from the Spotify API
 3- Store and transform the data using AWS Lambda
@@ -9,6 +10,7 @@ End-to-end ETL pipeline that extracts Spotify track data using their public API,
 5- Enable insights and reporting using tools like Power BI
 
 ## Architecture Overview
+
 - Spotify API → AWS Lambda (Extract) → Raw S3 Bucket 
             → AWS Lambda (Transform) → Processed S3 Bucket 
             → Snowpipe → Snowflake → Power BI
@@ -34,3 +36,13 @@ End-to-end ETL pipeline that extracts Spotify track data using their public API,
 - IAM roles configured with least privilege
 - Snowpipe uses external integration with limited permissions
 
+## Power BI Visualization (NEW)
+- Report Name: Spotify Power BI Visual.pbix
+- Data Source: Snowflake tables loaded through the ETL pipeline.
+  
+## Key Visuals:
+- Top 10 albums by total tracks
+- Release trends over time
+- Artist-wise track distribution
+
+This .pbix file is included in the repo for quick access to reports and insights.
