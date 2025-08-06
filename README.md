@@ -65,12 +65,14 @@ Power BI
 ├── README.md
 
 ## 📊 Power BI Visualization
-- Report Name: Spotify Power BI Visual.pbix
-- Data Source: Snowflake tables loaded through the ETL pipeline.
-  
-## 🔍 Key Visuals:
+
+- **Report Name:** `Spotify Power BI Visual.pbix`
+- **Data Source:** Snowflake tables loaded through the ETL pipeline.
+
+### 🔍 Key Visuals:
+
 - 🎵 Top 10 albums by total tracks  
 - 📅 Release trends over time  
-- 👤 Artist-wise track distribution
+- 👤 Artist-wise track distribution  
 
-📂 The `.pbix` file is included in the repo for quick access to reports and insights.
+📂 *The `.pbix` file is included in the repo for quick access to reports and insights.*
