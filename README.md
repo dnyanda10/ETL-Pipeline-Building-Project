@@ -6,10 +6,12 @@ End-to-end ETL pipeline that extracts Spotify track data using their public API,
  Build a robust, scalable, and automated ETL pipeline to:
  
 1. Extract data from the Spotify API.  
-2. Store and transform the data using AWS Lambda.  
-3. Load the final dataset into Snowflake using Snowpipe.  
-4. Enable insights and reporting using tools like Power BI.  
-5. Maintain full automation and serverless architecture.
+2. Store and transform the data using AWS Lambda.
+3. Adding trigger to run the extraction automatically
+4. Building Analytics Tables on data files using Glue and Athena
+5. Load the final dataset into Snowflake using Snowpipe.  
+6. Enable insights and reporting using tools like Power BI.  
+7. Maintain full automation and serverless architecture.
 
 ## Architecture Overview
 
