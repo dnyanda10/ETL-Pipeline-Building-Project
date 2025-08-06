@@ -54,7 +54,7 @@ Power BI
 - Snowpipe uses external integration with limited permissions
 
 ## 📁 Repository Structure 
-
+```
 ├── LambdaFunctions/
 │ ├── extract_lambda.py
 │ ├── transform_lambda.py
@@ -63,6 +63,7 @@ Power BI
 ├── powerbi/
 │ └── Spotify Power BI Visual.pbix
 ├── README.md
+```
 
 ## 📊 Power BI Visualization
 
