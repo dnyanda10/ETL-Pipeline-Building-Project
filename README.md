@@ -15,15 +15,21 @@ End-to-end ETL pipeline that extracts Spotify track data using their public API,
 
 ## 🏗️ Architecture Overview
 
-```mermaid
-graph LR
-    A[Spotify API] --> B[AWS Lambda (Extract)]
-    B --> C[Raw S3 Bucket]
-    C --> D[AWS Lambda (Transform)]
-    D --> E[Processed S3 Bucket]
-    E --> F[Snowpipe]
-    F --> G[Snowflake]
-    G --> H[Power BI]
+Spotify API
+↓
+AWS Lambda (Extract)
+↓
+Raw S3 Bucket
+↓
+AWS Lambda (Transform)
+↓
+Processed S3 Bucket
+↓
+Snowpipe
+↓
+Snowflake
+↓
+Power BI
 
             
 ## ⚙️ Components Used
