@@ -13,8 +13,9 @@ End-to-end ETL pipeline that extracts Spotify track data using their public API,
 6. Enable insights and reporting using tools like Power BI.  
 7. Maintain full automation and serverless architecture.
 
+
 ## 🏗️ Architecture Overview
-'''
+```
 Spotify API
 ↓
 AWS Lambda (Extract)
@@ -29,9 +30,8 @@ Snowpipe
 ↓
 Snowflake
 ↓
-Power BI
-'''
-
+Power BI  
+```
             
 ## ⚙️ Components Used
 | Layer         | Service/Tool                     | Description                                                                    |
